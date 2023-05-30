@@ -10,8 +10,10 @@ public class GodFatherPizzaApplication {
 		SpringApplication.run(GodFatherPizzaApplication.class, args);
 
 		GestioneMenu stampa = new GestioneMenu();
+		GestioneOrdini stampa1 = new GestioneOrdini();
 		stampa.stampaMenu();
 		stampa.testTopping();
+		stampa1.stampaOrdini();
 
 	}
 
